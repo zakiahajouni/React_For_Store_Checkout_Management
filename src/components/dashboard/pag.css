@@ -1,0 +1,42 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .page-number {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #9251C3;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #9251C3;
+    color: #fff;
+  }
+
+  .inventory-card-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inventory-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
